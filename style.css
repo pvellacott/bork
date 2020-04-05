@@ -8,6 +8,16 @@ p {
   margin: 0em;
 }
 
+li {
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+#content {
+  margin-top: 10px;
+  list-style-type: none;
+}
+
 .wrapper {
   
   width: 600px;
