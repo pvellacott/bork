@@ -16,6 +16,8 @@ li {
 #content {
   margin-top: 10px;
   list-style-type: none;
+  height: 120px;
+  overflow: auto;
 }
 
 .wrapper {
@@ -37,7 +39,6 @@ input {
   border:none;
   color: white;
   outline: none;
-  margin-top: 100px;
   position: static;
   font-size: 18px;
   color: transparent;
