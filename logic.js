@@ -15,10 +15,9 @@ const reply = [
   "Type something that makes sense..."
 ]
 
-document.getElementById("user-input").onkeypress=function(){
-    document.getElementById("vanish").style.display = "none";
-  }
-
+//document.getElementById("user-input").onkeypress=function(){
+ //   document.getElementById("vanish").style.display = "none";
+ // }
 
 document.getElementById("user-input").addEventListener('keypress', function (text) {
   if (text.key === 'Enter') {
@@ -34,9 +33,12 @@ document.getElementById("user-input").addEventListener('keypress', function (tex
     list2.innerHTML = randomReply
 
     //Displayed Content
-    document.getElementById("content").appendChild(list1)
-    document.getElementById("content").appendChild(list2)
+    document.getElementById("game-text").appendChild(list1)
+    document.getElementById("game-text").appendChild(list2)
     document.getElementById("user-input").value = ''
-    document.getElementById("vanish").style.display = "relative";
+    //document.getElementById("vanish").style.display = "relative";
+
+    document.getElementById("game-text").scrollTop = document.getElementById("game-text").scrollHeight
   }
-});
+})
+
