@@ -12,12 +12,10 @@ const reply = [
   "You head East. You encoutner a jungle.",
   "What?",
   "I dont understand that verb.",
-  "Type something that makes sense..."
+  "Type something that makes sense...",
+  "You are at the edge of a water fall.",
+  "Why did you just kick that orphan child... That was not very cool."
 ]
-
-//document.getElementById("user-input").onkeypress=function(){
- //   document.getElementById("vanish").style.display = "none";
- // }
 
 document.getElementById("user-input").addEventListener('keypress', function (text) {
   if (text.key === 'Enter') {
@@ -36,7 +34,6 @@ document.getElementById("user-input").addEventListener('keypress', function (tex
     document.getElementById("game-text").appendChild(list1)
     document.getElementById("game-text").appendChild(list2)
     document.getElementById("user-input").value = ''
-    //document.getElementById("vanish").style.display = "relative";
 
     document.getElementById("game-text").scrollTop = document.getElementById("game-text").scrollHeight
   }
