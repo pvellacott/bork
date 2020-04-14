@@ -4,17 +4,19 @@ const reply = [
   "Is that supposed to make sense?",
   "Please try typing something that makes sense.",
   "What you typed makes no sense.",
-  "Are you even trying?",
+  "You kick the ground and dirt flicks off your shoe straight up into your eye. Nice going.",
   "You head West towards the house.",
-  "'Doggy dogs borky bork on the softy soft comfy couch' is that what you just wrote?",
+  "'Doggy dog borky bork on the softy soft comfy couch' is that what you just wrote?",
   "You head South.",
   "You head North.",
-  "You head East. You encoutner a jungle.",
+  "You head East. You are now in a forest.",
   "What?",
   "I dont understand that verb.",
-  "Type something that makes sense...",
+  "Try typing something that makes sense...",
   "You are at the edge of a water fall.",
-  "Why did you just kick that orphan child... That was not very cool."
+  "Why did you just kick that orphan child... That was not very cool.",
+  "You picked up a dog collar. Cool. What would you like to do with it?",
+  "You are running towards an edge of a cliff with no intentions to stop... what are you doing!!! Turn around!"
 ]
 
 document.getElementById("user-input").addEventListener('keypress', function (text) {
